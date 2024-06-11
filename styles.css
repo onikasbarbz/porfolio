@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100vh;
+    margin:0;
+    background-color:lightblue;
+}
+.container{
+    text-align: left;
+    position: relative;
+}
+.social-icons{
+    opacity: 0.9;
+    background: linear-gradient(125deg, rgb(153, 212, 228), rgb(73, 73, 253) );
+    color: white;
+    padding: 30px;
+    font-size: 10px;
+    border-radius: 2px;
+    top: 0;
+    width: 100vw;
+    left: 0;
+    right: 0;
+    margin-bottom: 10em;
+}
+.social-icons i {
+    margin: 10px;
+}
+.social-icons img {
+    width: 20px;
+    height: 20px;
+  
+}
+.left-container{
+    position: relative;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/564x/73/1d/1d/731d1d89eb7b880a103c6d4600ee0721.jpg);
+    background-size: cover;
+}
+.right-container{
+    object-fit: cover;
+    width: 100%;
+}
+h1 {
+    font-size: 48px;
+    margin: 0;
+    color: white;
+}
+h2 {
+    font-size: 36px;
+    margin: 0;
+    color: white;
+}
+p {
+    font-size: 24px;
+    margin: 0;
+    color: white;
+}
+.image.container{
+    display: flex;
+    width: 90px;
+    height: 90px;
+}
+.details{
+    display: flex;
+    gap: 20em;
+}
+
+.info{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.button-container button{
+    width: 30%;
+    font-size: 30px;
+    background-color: aliceblue;
+}
