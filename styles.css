@@ -309,10 +309,21 @@ h3 {
   }
   .grid-One, .grid-Two{
     display: flex;
-    gap: 10px;
     padding: 30px;
     margin-bottom: 30px;
     color: whitesmoke;
+  }
+  .grid-One div:hover{
+    background-color: darkblue;
+    padding-top: 40px;
+    padding-left: -10px;
+    padding-bottom: 65px;
+  }
+  .grid-Two div:hover{
+    background-color: darkblue;
+    padding-top: 40px;
+    padding-left: -10px;
+    padding-bottom: 65px;
   }
   .grid-item{
     flex: 1;
