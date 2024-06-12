@@ -33,20 +33,17 @@ html, body{
 .social-icons img {
     width: 20px;
     height: 20px;
-  
 }
 .left-container{
     position: relative;
     align-items: center;
     height: 100vh;
-    background-image: url(https://i.pinimg.com/564x/73/1d/1d/731d1d89eb7b880a103c6d4600ee0721.jpg);
+    background-image: url(https://www.webzfusion.com/wp-content/uploads/2015/04/portfolio-background.gif);
     background-size: cover;
 }
-
 h1 {
     font-size: 48px;
     margin: 0;
-    color: black;
     padding: 20px;
     background: linear-gradient(to right, rgb(110, 110, 255), rgb(148, 228, 255));
     -webkit-background-clip: text; /* Clipping the gradient to the text */
@@ -92,13 +89,19 @@ h3 {
     width: 15%;
     font-size: 30px;
     background-color: aliceblue;
-    margin-left: 13em;
+    margin-left: 14em;
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 40px;
     border: none;
     color:white;
     background: linear-gradient(to right, rgb(110, 110, 255), rgb(148, 228, 255));
+}
+.interest h1{
+    text-align: center;
+}
+.interests-section{
+    text-align: center;
 }
 .interest-buttons{
     display: flex;
@@ -128,7 +131,6 @@ h3 {
     background-position: center;
     transform: scale(2.8);
 }
-
 .icon p {
     margin-top: 19px;
     margin-left: 10px;
@@ -142,4 +144,244 @@ h3 {
 }
 .button:hover .icon p {
     display: block;
+}
+.timeline{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.timeline-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.timeline-icon{
+    flex-shrink: 0;
+    width: 90px;
+    height: 90px;
+    border: 4px solid rgb(156, 156, 255);
+    background-color: cyan;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    position: relative;
+}
+.timeline-icon::before{
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 200px;
+    background-color: rgb(156, 156, 255);
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+.timeline-content{
+    flex-grow: 1;
+    padding-left: 30px;
+    text-align: left;
+}
+.timeline-content h2{
+    margin:0;
+    color: black;
+    font-size: 40px;
+}
+.timeline-content p{
+    margin:0;
+    color: black;
+    font-size: 25px;
+}
+.education h1{
+    text-align: center;
+    margin-top: 35px;
+}
+.workExperience h1{
+    text-align: center;
+}
+.workExperience{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.experinence-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.experience-icon{
+    flex-shrink: 0;
+    width: 90px;
+    height: 90px;
+    border: 4px solid rgb(156, 156, 255);
+    background-color: cyan;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    position: relative;
+}
+.experience-icon::before{
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 200px;
+    background-color: rgb(156, 156, 255);
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+.experience-content{
+    flex-grow: 1;
+    padding-left: 110px;
+    text-align: left;
+}
+.experience-content h2{
+    margin:0;
+    color: black;
+    font-size: 40px;
+}
+.experience-content p{
+    display: block;
+    margin: 5px;
+    margin:0;
+    color: black;
+    font-size: 25px;
+}
+.skill h1{
+    text-align: center;
+    margin-left: 100px;
+}
+.skill-bar {
+    text-align: right;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: black; 
+  }
+  .html {width: 50%;margin-left:10em;height: 10px; font-size: 25px; background-color: lightcyan;} 
+  .css {width: 25%;margin-left:10em;height: 10px;font-size: 25px;   background-color: lightcyan;}
+  .js {width: 50%;margin-left:10em;height: 10px;font-size: 25px;   background-color: lightcyan;}
+  .java {width: 40%;margin-left:10em;height: 10px;font-size: 25px;   background-color: lightcyan;} 
+  .skill p{
+    font-size: 30px;
+    margin-left:9em;
+  }
+  .column{
+    width: 33.33%;
+    padding:10px;
+    height: 300px;
+  }
+  .Profile{
+    display: flex;
+    margin-top: 8em;
+    margin-left: 20em;
+    margin-right: 20em;
+  }
+  .column h1{
+    font-size: 35px;
+    margin: -30px;
+    text-align: center;
+  }
+  .column h2{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .column h3{
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+  }
+  .projects{
+    height: 100vh;
+    background-image: url(https://wallpapercave.com/wp/wp2966265.jpg);
+    background-size: cover;
+  }
+  .projects h1{
+    margin: 40px;
+    text-align: center;
+  }
+  .grid-One, .grid-Two{
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    color: whitesmoke;
+  }
+  .grid-item{
+    flex: 1;
+    width: 300px; 
+    height: 300px; 
+    justify-content: center;
+    text-align: center;
+  }
+  .grid-item img {
+    width: 80%;
+    height: auto;
+    max-height: 110%;
+    object-fit: cover; 
+  }
+  .grid-item h2 {
+    margin-top: 0px;
+    font-size: 35px;
+  }
+  .Conclusion{
+    height: 100vh;
+    background-image: url(https://th.bing.com/th/id/OIP.mlEOVo_iXcDHlIW0266MWwHaEo?rs=1&pid=ImgDetMain);
+    background-size: cover;
+  }
+  .Conclusion hr{
+    border-style:none;
+    height: 3px;
+    background-color: aqua;
+    width: 30px;
+  }
+  .Conclusion h1{
+    font-size: 30px;
+    margin-left: 9em;
+    margin-top: 5em;
+  }
+  .Conclusion h2{
+    font-size: 55px;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 3em;
+    color: white;
+  }
+  .Conclusion h3{
+    color: white;
+    font-size: 50px;
+    margin-top: 3em;
+    margin-left: 5.3em;
+  }
+  .Conclusion p{
+    font-size: 30px;
+    color: grey;
+  }
+.footer{
+    position:static;
+    left: 0;
+    bottom: 0;
+    font-size: 20px;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 4em;
+  }
+.footer-icon{
+    background-color: (black);
+    color: white;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+}
+.footer-icon i:hover{
+    color: cyan;
 }
